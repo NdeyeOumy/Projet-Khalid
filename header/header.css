@@ -1,0 +1,66 @@
+header{
+    background-color: #3f3838;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display:flex;
+    padding: 0px;
+}
+/*h1{
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+/* 🔥 liens du menu */
+/*nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 10px;
+}*/
+h1{
+    margin: 0;
+    margin-right: 20px;
+    font-size: 24px;
+
+}
+nav a, .right a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 10px;
+}
+.right{
+    margin-left: auto;
+    display: flex;
+}
+main{
+    padding: 20px;
+    background-color: rgb(20, 70, 78);
+    text-align: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: white;
+    font-size: 50px;
+}
+p{
+    color:white;
+    font-size: 25px;
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    height:40px;
+}

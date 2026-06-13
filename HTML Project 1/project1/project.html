@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
     <title>Mon Portfolio</title>
 </head>
 <body>
 
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="nav">
             <a href="#accueil">Accueil</a>
             <a href="#apropos">A propos</a>
             <a href="#travail">Travail</a>
@@ -17,20 +18,20 @@
         </nav>
     </header>
 
-    <section id="accueil">
+    <section class="accueil">
         <h1>Bienvenue sur mon Portfolio</h1>
-        <p>Ce site est un projet HTML.</p>
+        <p>Découvrez mes projets, mon expérience et comment me contacter.</p>
     </section>
 
-    <section id="apropos">
+    <section class="apropos">
         <h2>A propos de moi</h2>
         <p>Je suis un développeur web passionné par la création de sites web modernes et fonctionnels.</p>
     </section>
 
-    <section id="travail">
+    <section class="travail">
         <h2>Mon travail</h2>
         <p>Voici quelques-uns de mes projets récents :</p>
-        <ul>
+        <ul class="projets">
             <li>Projet 1: Un site de commerce électronique</li>
             <li>Projet 2: Un blog personnel</li>
             <li>Projet 3: Un portfolio en ligne</li>
@@ -42,10 +43,10 @@
         </video>
     </section>
 
-    <section id="cv">
+    <section class="cv">
         <h2>Mon CV</h2>
         <p>Vous pouvez télécharger mon CV en cliquant sur le lien ci-dessous :</p>
-        <a href="cv.pdf" download>Télécharger mon CV</a>
+        <a href="CV_OUMY.pdf" download>Télécharger mon CV</a>
 
         <audio controls>
             <source src="audio.mp3" type="audio/mpeg">
@@ -53,9 +54,9 @@
         </audio>
     </section>
 
-    <section id="contact">
+    <section class="contact">
         <h2>Contactez-moi</h2>
-        <form>
+        <form class="contact-form" action="#" method="post">
             <label for="name">Nom:</label>
             <input type="text" id="name" name="name" required>
 
@@ -69,8 +70,8 @@
         </form>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+    <footer class="footer">
+        <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
     </footer> 
 
 </body>
